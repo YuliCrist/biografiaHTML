@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mi Música</title>
+    <style>
+        body {
+            font-style: oblique;
+            background: linear-gradient(to bottom, #ffcc70, #ff7c70);
+            margin: 0;
+            padding: 0;
+            font-size: larger;
+        }
+
+        header {
+            background: #ff9e70;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .container {
+            margin: 30px auto;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1,
+        h2 {
+            color: #ff6b6b;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Música</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Biografía</a></li>
+                <li><a href="presentacion.html">Presentación</a></li>
+                <li><a href="mimusica.html">Mi Música</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Las canciones que mas escucho</h2>
+
+        <iframe src="https://www.youtube.com/embed/uoxY6fX2sqo" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/MBdVXkSdhwU" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/7C2z4GqqS5E" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
